@@ -7,7 +7,6 @@ $("#settings").click(function () {
     $(".sliders").slideToggle("slow");
 });
 
-//TODO FIX SLIDER VALUE BUG
 $(function () {
     $("#monthSlider").slider({
         range: true,
@@ -15,7 +14,7 @@ $(function () {
         max: 12,
         values: [ 1, 12],
         slide: function (event, ui) {
-            $("#monthAmount").val(ui.values[0] + ui.values[ 1 ]);
+            $("#monthAmount").val(ui.values[0] + " - " + ui.values[ 1 ]);
         }
     });
     $("#monthAmount").val($("#monthSlider").slider("values", 0) +
@@ -30,7 +29,7 @@ $(function () {
         max: 2014,
         values: [ 1970, 2014],
         slide: function (event, ui) {
-            $("#yearAmount").val(ui.values[0] + ui.values[ 1 ]);
+            $("#yearAmount").val(ui.values[0] + " - " + ui.values[ 1 ]);
         }
     });
     $("#yearAmount").val($("#yearSlider").slider("values", 0) +

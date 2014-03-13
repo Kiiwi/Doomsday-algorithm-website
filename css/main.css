@@ -267,6 +267,10 @@ li {
     display: none;
 }
 
+#monthSlider {
+    margin: 20px auto;
+}
+
 #monthSlider label {
     position: absolute;
     width: 20px;
