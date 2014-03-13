@@ -267,6 +267,22 @@ li {
     display: none;
 }
 
+#monthSlider label {
+    position: absolute;
+    width: 20px;
+    margin-left: -10px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#yearSlider label {
+    position: absolute;
+    width: 20px;
+    margin-left: -10px;
+    text-align: center;
+    margin-top: 20px;
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
