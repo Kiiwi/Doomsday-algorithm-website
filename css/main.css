@@ -115,8 +115,7 @@ header {
     text-align: right;
     line-height: 36px;
     background: #364656;
-    border-bottom-style: solid;
-    border-bottom-color: #ff8c31;
+    border-bottom: solid #ff8c31;
 }
 
 footer {
@@ -174,9 +173,7 @@ li {
     max-width: 400px;
     padding: 1px;
     border-radius: 10px;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #FF8C31;
+    border: 1px solid #FF8C31;
     background: #F2F5E9;
 }
 
@@ -249,9 +246,7 @@ li {
     max-width: 600px;
     padding: 1px;
     border-radius: 10px;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #FF8C31;
+    border: 1px solid #FF8C31;
     background: #F2F5E9;
     display: none;
 }
