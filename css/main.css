@@ -268,23 +268,69 @@ li {
 }
 
 #monthSlider {
-    margin: 20px auto;
+    display: block;
+    text-align: center;
+    margin: 40px 20px 0 20px;
+    background: #5D6B74 none;
+    border-color: #5D6B74;
+}
+
+#yearSlider {
+    display: block;
+    text-align: center;
+    margin: 40px 20px 0 20px;
+    background: #5D6B74 none;
+    border-color: #5D6B74;
+}
+
+#monthSlider .ui-slider-range {
+    background: #364656;
+}
+
+#yearSlider .ui-slider-range {
+    background: #364656;
+}
+
+#monthSlider .ui-slider-handle {
+    background: #FF8C31;
+    border: none;
+}
+
+#yearSlider .ui-slider-handle {
+    background: #FF8C31;
+    border: none;
+}
+
+#monthAmount {
+    background: none;
+    text-align: center;
+    width: 90px;
+    border: none;
+    color: #FF8C31;
+}
+
+#yearAmount {
+    background: none;
+    text-align: center;
+    width: 100px;
+    border: none;
+    color: #FF8C31;
 }
 
 #monthSlider label {
-    position: absolute;
-    width: 20px;
-    margin-left: -10px;
-    text-align: center;
-    margin-top: 20px;
+    position: relative;
+    width: 100px;
+    text-align: right;
+    padding-right: 10px;
+    color: #364656;
 }
 
 #yearSlider label {
-    position: absolute;
-    width: 20px;
-    margin-left: -10px;
-    text-align: center;
-    margin-top: 20px;
+    position: relative;
+    width: 100px;
+    text-align: right;
+    padding-right: 14px;
+    color: #364656;
 }
 
 /* ==========================================================================

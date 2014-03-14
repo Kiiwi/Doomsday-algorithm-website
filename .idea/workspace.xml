@@ -4,7 +4,8 @@
     <option name="ANALYSIS_IN_BACKGROUND" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ce401ee-3935-4fbf-bc6a-0ee8e3d900a8" name="Default" comment="removed jquery-ui-slider-pips, added jqueryUI sliders">
+    <list default="true" id="5ce401ee-3935-4fbf-bc6a-0ee8e3d900a8" name="Default" comment="fixed label bug">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -33,7 +34,7 @@
       <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="272" column="0" selection-start="4579" selection-end="4579" vertical-scroll-proportion="0.0" vertical-offset="2940" max-vertical-offset="8211">
+            <state line="300" column="16" selection-start="5107" selection-end="5107" vertical-scroll-proportion="0.0" vertical-offset="4334" max-vertical-offset="9010">
               <folding />
             </state>
           </provider>
@@ -42,10 +43,10 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="117" column="34" selection-start="3569" selection-end="3569" vertical-scroll-proportion="-27.461538" vertical-offset="1275" max-vertical-offset="2448">
+            <state line="92" column="21" selection-start="2930" selection-end="2930" vertical-scroll-proportion="-20.923077" vertical-offset="1020" max-vertical-offset="2533">
               <folding>
-                <marker date="1394676973338" expanded="true" signature="898:1051" placeholder="..." />
-                <marker date="1394676973338" expanded="true" signature="991:1019" placeholder="..." />
+                <marker date="1394761292865" expanded="true" signature="898:1051" placeholder="..." />
+                <marker date="1394761292865" expanded="true" signature="991:1019" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -63,7 +64,7 @@
       <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="0" selection-start="157" selection-end="157" vertical-scroll-proportion="0.15332581" vertical-offset="0" max-vertical-offset="887">
+            <state line="39" column="0" selection-start="933" selection-end="933" vertical-scroll-proportion="0.74915254" vertical-offset="0" max-vertical-offset="885">
               <folding />
             </state>
           </provider>
@@ -88,9 +89,9 @@
         <option value="$PROJECT_DIR$/css/jquery-ui-slider-pips.css" />
         <option value="$PROJECT_DIR$/css/jquery-ui-slider-pips.js" />
         <option value="$PROJECT_DIR$/js/vendor/jquery-ui-slider-pips.js" />
+        <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/main.css" />
-        <option value="$PROJECT_DIR$/js/main.js" />
       </list>
     </option>
   </component>
@@ -389,7 +390,11 @@
       <created>1394677018827</created>
       <updated>1394677018827</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="fixed label bug">
+      <created>1394754602698</created>
+      <updated>1394754602698</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -416,6 +421,7 @@
     <frame x="0" y="0" width="960" height="1040" extended-state="0" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32901832" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32881355" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -431,7 +437,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32901832" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39956093" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -453,7 +458,8 @@
     <MESSAGE value="simplified border" />
     <MESSAGE value="added jquery-ui-slider-pips" />
     <MESSAGE value="removed jquery-ui-slider-pips, added jqueryUI sliders" />
-    <option name="LAST_COMMIT_MESSAGE" value="removed jquery-ui-slider-pips, added jqueryUI sliders" />
+    <MESSAGE value="fixed label bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed label bug" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -478,8 +484,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="61" column="52" selection-start="2744" selection-end="2744" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1802">
           <folding>
-            <marker date="1394676973338" expanded="true" signature="898:1051" placeholder="..." />
-            <marker date="1394676973338" expanded="true" signature="991:1019" placeholder="..." />
+            <marker date="1394761292865" expanded="true" signature="898:1051" placeholder="..." />
+            <marker date="1394761292865" expanded="true" signature="991:1019" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -509,8 +515,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="61" column="52" selection-start="2744" selection-end="2744" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1802">
           <folding>
-            <marker date="1394676973338" expanded="true" signature="898:1051" placeholder="..." />
-            <marker date="1394676973338" expanded="true" signature="991:1019" placeholder="..." />
+            <marker date="1394761292865" expanded="true" signature="898:1051" placeholder="..." />
+            <marker date="1394761292865" expanded="true" signature="991:1019" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -540,8 +546,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="61" column="52" selection-start="2744" selection-end="2744" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="1802">
           <folding>
-            <marker date="1394676973338" expanded="true" signature="898:1051" placeholder="..." />
-            <marker date="1394676973338" expanded="true" signature="991:1019" placeholder="..." />
+            <marker date="1394761292865" expanded="true" signature="898:1051" placeholder="..." />
+            <marker date="1394761292865" expanded="true" signature="991:1019" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -571,8 +577,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="61" column="52" selection-start="2744" selection-end="2744" vertical-scroll-proportion="0.0" vertical-offset="342" max-vertical-offset="1802">
           <folding>
-            <marker date="1394676973338" expanded="true" signature="898:1051" placeholder="..." />
-            <marker date="1394676973338" expanded="true" signature="991:1019" placeholder="..." />
+            <marker date="1394761292865" expanded="true" signature="898:1051" placeholder="..." />
+            <marker date="1394761292865" expanded="true" signature="991:1019" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -602,8 +608,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="61" column="52" selection-start="2744" selection-end="2744" vertical-scroll-proportion="0.0" vertical-offset="765" max-vertical-offset="1802">
           <folding>
-            <marker date="1394676973338" expanded="true" signature="898:1051" placeholder="..." />
-            <marker date="1394676973338" expanded="true" signature="991:1019" placeholder="..." />
+            <marker date="1394761292865" expanded="true" signature="898:1051" placeholder="..." />
+            <marker date="1394761292865" expanded="true" signature="991:1019" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -633,8 +639,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="51" selection-start="767" selection-end="767" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1819">
           <folding>
-            <marker date="1394676973338" expanded="true" signature="898:1051" placeholder="..." />
-            <marker date="1394676973338" expanded="true" signature="991:1019" placeholder="..." />
+            <marker date="1394761292865" expanded="true" signature="898:1051" placeholder="..." />
+            <marker date="1394761292865" expanded="true" signature="991:1019" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -657,8 +663,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="70" column="30" selection-start="2810" selection-end="2810" vertical-scroll-proportion="0.0" vertical-offset="1190" max-vertical-offset="1819">
           <folding>
-            <marker date="1394676973338" expanded="true" signature="898:1051" placeholder="..." />
-            <marker date="1394676973338" expanded="true" signature="991:1019" placeholder="..." />
+            <marker date="1394761292865" expanded="true" signature="898:1051" placeholder="..." />
+            <marker date="1394761292865" expanded="true" signature="991:1019" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -681,8 +687,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="46" column="51" selection-start="1999" selection-end="1999" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="1377">
           <folding>
-            <marker date="1394676973338" expanded="true" signature="898:1051" placeholder="..." />
-            <marker date="1394676973338" expanded="true" signature="991:1019" placeholder="..." />
+            <marker date="1394761292865" expanded="true" signature="898:1051" placeholder="..." />
+            <marker date="1394761292865" expanded="true" signature="991:1019" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -698,8 +704,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="30" column="41" selection-start="1342" selection-end="1342" vertical-scroll-proportion="0.0" vertical-offset="181" max-vertical-offset="1326">
           <folding>
-            <marker date="1394676973338" expanded="true" signature="898:1051" placeholder="..." />
-            <marker date="1394676973338" expanded="true" signature="991:1019" placeholder="..." />
+            <marker date="1394761292865" expanded="true" signature="898:1051" placeholder="..." />
+            <marker date="1394761292865" expanded="true" signature="991:1019" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -715,8 +721,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="47" column="53" selection-start="2094" selection-end="2094" vertical-scroll-proportion="0.0" vertical-offset="489" max-vertical-offset="1309">
           <folding>
-            <marker date="1394676973338" expanded="true" signature="898:1051" placeholder="..." />
-            <marker date="1394676973338" expanded="true" signature="991:1019" placeholder="..." />
+            <marker date="1394761292865" expanded="true" signature="898:1051" placeholder="..." />
+            <marker date="1394761292865" expanded="true" signature="991:1019" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -793,7 +799,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/jquery-ui-slider-pips.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="21" selection-start="396" selection-end="396" vertical-scroll-proportion="0.42027193" vertical-offset="0" max-vertical-offset="5151" />
+        <state line="20" column="21" selection-start="396" selection-end="396" vertical-scroll-proportion="0.42027193" vertical-offset="0" max-vertical-offset="5151">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/vendor/jquery-ui-slider-pips.js">
@@ -801,26 +809,26 @@
         <state line="214" column="0" selection-start="5827" selection-end="5827" vertical-scroll-proportion="4.3831325" vertical-offset="0" max-vertical-offset="3740" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="117" column="34" selection-start="3569" selection-end="3569" vertical-scroll-proportion="-27.461538" vertical-offset="1275" max-vertical-offset="2448">
-          <folding>
-            <marker date="1394676973338" expanded="true" signature="898:1051" placeholder="..." />
-            <marker date="1394676973338" expanded="true" signature="991:1019" placeholder="..." />
-          </folding>
+        <state line="300" column="16" selection-start="5107" selection-end="5107" vertical-scroll-proportion="0.0" vertical-offset="4334" max-vertical-offset="9010">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="272" column="0" selection-start="4579" selection-end="4579" vertical-scroll-proportion="0.0" vertical-offset="2940" max-vertical-offset="8211">
-          <folding />
+        <state line="92" column="21" selection-start="2930" selection-end="2930" vertical-scroll-proportion="-20.923077" vertical-offset="1020" max-vertical-offset="2533">
+          <folding>
+            <marker date="1394761292865" expanded="true" signature="898:1051" placeholder="..." />
+            <marker date="1394761292865" expanded="true" signature="991:1019" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="157" selection-end="157" vertical-scroll-proportion="0.15332581" vertical-offset="0" max-vertical-offset="887">
+        <state line="39" column="0" selection-start="933" selection-end="933" vertical-scroll-proportion="0.74915254" vertical-offset="0" max-vertical-offset="885">
           <folding />
         </state>
       </provider>

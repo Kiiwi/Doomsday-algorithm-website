@@ -7,20 +7,6 @@ $("#settings").click(function () {
     $(".sliders").slideToggle("slow");
 });
 
-$(function () {
-    $("#monthSlider").slider({
-        range: true,
-        min: 1,
-        max: 12,
-        values: [ 1, 12],
-        slide: function (event, ui) {
-            $("#monthAmount").val(ui.values[0] + " - " + ui.values[ 1 ]);
-        }
-    });
-    $("#monthAmount").val($("#monthSlider").slider("values", 0) +
-        " - " + $("#monthSlider").slider("values", 1));
-
-});
 
 $(function () {
     $("#yearSlider").slider({
@@ -36,5 +22,19 @@ $(function () {
         " - " + $("#yearSlider").slider("values", 1));
 });
 
+$(function () {
+    $("#monthSlider").slider({
+        range: true,
+        min: 1,
+        max: 12,
+        values: [ 1, 12],
+        slide: function (event, ui) {
+            $("#monthAmount").val(ui.values[0] + " - " + ui.values[ 1 ]);
+        }
+    });
+    $("#monthAmount").val($("#monthSlider").slider("values", 0) +
+        " - " + $("#monthSlider").slider("values", 1));
+
+});
 
 
