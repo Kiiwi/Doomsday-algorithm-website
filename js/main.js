@@ -37,14 +37,4 @@ $(function () {
 
 });
 
-$("#centuryhint").click(function () {
-    $("#centuryhinttext").slideToggle("slow");
-});
-
-$("#yearhint").click(function () {
-    $("#yearhinttext").slideToggle("slow");
-});
-
-$("#datehint").click(function () {
-    $("#datehinttext").slideToggle("slow");
-});
+//TODO add modal screens for hint buttons
