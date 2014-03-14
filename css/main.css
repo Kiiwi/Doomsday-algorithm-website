@@ -282,7 +282,7 @@ li {
 }
 
 .sliders {
-    margin: 60px auto;
+    margin: auto auto;
     max-width: 600px;
     display: none;
 }
