@@ -243,12 +243,32 @@ li {
 
 .hint {
     margin: 60px auto;
-    max-width: 600px;
+    max-width: 500px;
     padding: 1px;
     border-radius: 10px;
     border: 1px solid #FF8C31;
     background: #F2F5E9;
     display: none;
+}
+
+.hint p {
+    font-size: 16pt;
+    text-align: center;
+    color: #364656;
+}
+
+.hint span {
+    color: #FF8C31;
+}
+
+.hint button {
+    background: none;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    padding: 0;
+    display: block;
 }
 
 #settings {
