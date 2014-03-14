@@ -353,6 +353,18 @@ li {
     color: #364656;
 }
 
+#centuryhinttext {
+    display: none;
+}
+
+#yearhinttext {
+    display: none;
+}
+
+#datehinttext {
+    display: none;
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
