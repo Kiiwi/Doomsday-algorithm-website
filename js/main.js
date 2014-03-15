@@ -13,7 +13,7 @@ $(function () {
         range: true,
         min: 1970,
         max: 2014,
-        values: [ 1970, 2014],
+        values: [1970, 2014],
         slide: function (event, ui) {
             $("#yearAmount").val(ui.values[0] + " - " + ui.values[ 1 ]);
         }
@@ -27,7 +27,7 @@ $(function () {
         range: true,
         min: 1,
         max: 12,
-        values: [ 1, 12],
+        values: [1, 12],
         slide: function (event, ui) {
             $("#monthAmount").val(ui.values[0] + " - " + ui.values[ 1 ]);
         }
