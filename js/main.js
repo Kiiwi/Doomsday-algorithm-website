@@ -39,6 +39,7 @@ $(function () {
 
 $("#centmodalbutton").click(function () {
     $("#datemodal").dialog("open");
+    $(".ui-dialog-titlebar").hide();
 });
 
 $("#centmodal").dialog({
@@ -55,6 +56,7 @@ $("#centmodal").dialog({
 
 $("#yearmodalbutton").click(function () {
     $("#yearmodal").dialog("open");
+    $(".ui-dialog-titlebar").hide();
 });
 
 $("#yearmodal").dialog({
@@ -72,6 +74,7 @@ $("#yearmodal").dialog({
 
 $("#datemodalbutton").click(function () {
     $("#datemodal").dialog("open");
+    $(".ui-dialog-titlebar").hide();
 });
 
 $("#datemodal").dialog({
