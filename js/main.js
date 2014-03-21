@@ -37,4 +37,51 @@ $(function () {
 
 });
 
-//TODO add modal screens for hint buttons
+$("#centmodalbutton").click(function () {
+    $("#datemodal").dialog("open");
+});
+
+$("#centmodal").dialog({
+    height: 140,
+    modal: true,
+    show: true,
+    autoOpen: false,
+    open: function () {
+        jQuery('.ui-widget-overlay').bind('click', function () {
+            jQuery('#centmodal').dialog('close');
+        })
+    }
+});
+
+$("#yearmodalbutton").click(function () {
+    $("#yearmodal").dialog("open");
+});
+
+$("#yearmodal").dialog({
+    height: 140,
+    modal: true,
+    show: true,
+    autoOpen: false,
+    open: function () {
+        jQuery('.ui-widget-overlay').bind('click', function () {
+            jQuery('#yearmodal').dialog('close');
+        })
+    }
+});
+
+
+$("#datemodalbutton").click(function () {
+    $("#datemodal").dialog("open");
+});
+
+$("#datemodal").dialog({
+    height: 140,
+    modal: true,
+    show: true,
+    autoOpen: false,
+    open: function () {
+        jQuery('.ui-widget-overlay').bind('click', function () {
+            jQuery('#datemodal').dialog('close');
+        })
+    }
+});
