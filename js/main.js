@@ -44,7 +44,7 @@ $("#centmodalbutton").click(function () {
 });
 
 $("#centmodal").dialog({
-    width: 500,
+    width: 600,
     modal: true,
     show: true,
     hide: true,
@@ -63,7 +63,7 @@ $("#yearmodalbutton").click(function () {
 });
 
 $("#yearmodal").dialog({
-    width: 700,
+    width: 600,
     modal: true,
     show: true,
     hide: true,
@@ -83,7 +83,7 @@ $("#datemodalbutton").click(function () {
 });
 
 $("#datemodal").dialog({
-    width: 500,
+    width: 600,
     modal: true,
     show: true,
     hide: true,
@@ -95,4 +95,16 @@ $("#datemodal").dialog({
     }
 });
 
+
+$(function () {
+    $("#yearmodal").load("year_algorithm.html");
+});
+
+$(function () {
+    $("#centmodal").load("century_algorithm.html");
+});
+
+$(function () {
+    $("#datemodal").load("date_algorithm.html");
+});
 // TODO: Fix auto size on modal dialogs
