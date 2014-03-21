@@ -63,7 +63,7 @@ $("#yearmodalbutton").click(function () {
 });
 
 $("#yearmodal").dialog({
-    width: 500,
+    width: 700,
     modal: true,
     show: true,
     hide: true,

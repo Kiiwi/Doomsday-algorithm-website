@@ -379,9 +379,12 @@ li {
     display: none;
 }
 
-#yearmodal ol li {
-    display: block;
-    text-align: center;
+#yearmodal {
+    text-align: left;
+}
+
+#yearmodal li {
+    display: list-item;
 }
 
 .ui-dialog .ui-dialog-content {
@@ -402,7 +405,6 @@ li {
     color: #364656;
 }
 
-/* TODO: Fix ordered list */
 
 /* ==========================================================================
    Helper classes
