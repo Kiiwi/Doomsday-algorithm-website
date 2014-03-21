@@ -107,4 +107,3 @@ $(function () {
 $(function () {
     $("#datemodal").load("date_algorithm.html");
 });
-// TODO: Fix auto size on modal dialogs

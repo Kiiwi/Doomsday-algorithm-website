@@ -247,7 +247,7 @@ li {
 .hint {
     margin: 60px auto;
     width: 500px;
-    padding: 1px;
+    padding: 0;
     border-radius: 10px;
     border: 1px solid #FF8C31;
     background: #F2F5E9;
@@ -288,6 +288,7 @@ li {
     margin: auto auto;
     max-width: 600px;
     display: none;
+    position: relative;
 }
 
 #monthSlider {
