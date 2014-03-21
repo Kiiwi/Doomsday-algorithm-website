@@ -38,14 +38,16 @@ $(function () {
 });
 
 $("#centmodalbutton").click(function () {
-    $("#datemodal").dialog("open");
+    $("#centmodal").dialog("open");
     $(".ui-dialog-titlebar").hide();
+    $('#centmodal').css('height', 'auto');
 });
 
 $("#centmodal").dialog({
-    height: 140,
+    width: 500,
     modal: true,
     show: true,
+    hide: true,
     autoOpen: false,
     open: function () {
         jQuery('.ui-widget-overlay').bind('click', function () {
@@ -57,12 +59,14 @@ $("#centmodal").dialog({
 $("#yearmodalbutton").click(function () {
     $("#yearmodal").dialog("open");
     $(".ui-dialog-titlebar").hide();
+    $('#yearmodal').css('height', 'auto');
 });
 
 $("#yearmodal").dialog({
-    height: 140,
+    width: 500,
     modal: true,
     show: true,
+    hide: true,
     autoOpen: false,
     open: function () {
         jQuery('.ui-widget-overlay').bind('click', function () {
@@ -75,12 +79,14 @@ $("#yearmodal").dialog({
 $("#datemodalbutton").click(function () {
     $("#datemodal").dialog("open");
     $(".ui-dialog-titlebar").hide();
+    $('#datemodal').css('height', 'auto');
 });
 
 $("#datemodal").dialog({
-    height: 140,
+    width: 500,
     modal: true,
     show: true,
+    hide: true,
     autoOpen: false,
     open: function () {
         jQuery('.ui-widget-overlay').bind('click', function () {
@@ -88,3 +94,5 @@ $("#datemodal").dialog({
         })
     }
 });
+
+// TODO: Fix auto size on modal dialogs

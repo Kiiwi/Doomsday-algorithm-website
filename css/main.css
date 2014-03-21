@@ -379,9 +379,30 @@ li {
     display: none;
 }
 
+#yearmodal ol li {
+    display: block;
+    text-align: center;
+}
+
+.ui-dialog .ui-dialog-content {
+    position: relative;
+}
+
 .ui-widget-overlay {
     background: #000000;
+    opacity: .5;
 }
+
+.ui-widget-content {
+    background: #f2f5e9;
+    border: 1px solid #ff8c31;
+    border-radius: 10px;
+    font-size: 16pt;
+    text-align: center;
+    color: #364656;
+}
+
+/* TODO: Fix ordered list */
 
 /* ==========================================================================
    Helper classes
