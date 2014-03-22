@@ -4,7 +4,8 @@
     <option name="ANALYSIS_IN_BACKGROUND" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ce401ee-3935-4fbf-bc6a-0ee8e3d900a8" name="Default" comment="Moved random date calcs into a function and added function call on document ready">
+    <list default="true" id="5ce401ee-3935-4fbf-bc6a-0ee8e3d900a8" name="Default" comment="Now with slider values as variables">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -41,13 +42,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="74" column="67" selection-start="2522" selection-end="2522" vertical-scroll-proportion="-28.115385" vertical-offset="527" max-vertical-offset="2720">
+            <state line="74" column="52" selection-start="2587" selection-end="2587" vertical-scroll-proportion="0.8640662" vertical-offset="527" max-vertical-offset="2720">
               <folding>
-                <marker date="1395456114556" expanded="true" signature="898:1051" placeholder="..." />
-                <marker date="1395456114556" expanded="true" signature="991:1019" placeholder="..." />
+                <marker date="1395461163626" expanded="true" signature="898:1051" placeholder="..." />
+                <marker date="1395461163626" expanded="true" signature="991:1019" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -62,10 +63,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="145" column="0" selection-start="3671" selection-end="3671" vertical-scroll-proportion="0.8830275" vertical-offset="1695" max-vertical-offset="2584">
+            <state line="147" column="3" selection-start="3739" selection-end="3739" vertical-scroll-proportion="0.0" vertical-offset="1695" max-vertical-offset="2618">
               <folding />
             </state>
           </provider>
@@ -98,8 +99,8 @@
         <option value="$PROJECT_DIR$/century_algorithm.html" />
         <option value="$PROJECT_DIR$/date_algorithm.html" />
         <option value="$PROJECT_DIR$/css/main.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/main.js" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -493,7 +494,11 @@
       <created>1395456717013</created>
       <updated>1395456717013</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Now with slider values as variables">
+      <created>1395461093413</created>
+      <updated>1395461093413</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -575,7 +580,8 @@
     <MESSAGE value="Can now generate and display random date." />
     <MESSAGE value="Added value attribute to day buttons" />
     <MESSAGE value="Moved random date calcs into a function and added function call on document ready" />
-    <option name="LAST_COMMIT_MESSAGE" value="Moved random date calcs into a function and added function call on document ready" />
+    <MESSAGE value="Now with slider values as variables" />
+    <option name="LAST_COMMIT_MESSAGE" value="Now with slider values as variables" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -593,8 +599,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="61" column="52" selection-start="2744" selection-end="2744" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="1802">
           <folding>
-            <marker date="1395456114556" expanded="true" signature="898:1051" placeholder="..." />
-            <marker date="1395456114556" expanded="true" signature="991:1019" placeholder="..." />
+            <marker date="1395461163626" expanded="true" signature="898:1051" placeholder="..." />
+            <marker date="1395461163626" expanded="true" signature="991:1019" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -624,8 +630,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="61" column="52" selection-start="2744" selection-end="2744" vertical-scroll-proportion="0.0" vertical-offset="342" max-vertical-offset="1802">
           <folding>
-            <marker date="1395456114556" expanded="true" signature="898:1051" placeholder="..." />
-            <marker date="1395456114556" expanded="true" signature="991:1019" placeholder="..." />
+            <marker date="1395461163626" expanded="true" signature="898:1051" placeholder="..." />
+            <marker date="1395461163626" expanded="true" signature="991:1019" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -655,8 +661,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="61" column="52" selection-start="2744" selection-end="2744" vertical-scroll-proportion="0.0" vertical-offset="765" max-vertical-offset="1802">
           <folding>
-            <marker date="1395456114556" expanded="true" signature="898:1051" placeholder="..." />
-            <marker date="1395456114556" expanded="true" signature="991:1019" placeholder="..." />
+            <marker date="1395461163626" expanded="true" signature="898:1051" placeholder="..." />
+            <marker date="1395461163626" expanded="true" signature="991:1019" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -686,8 +692,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="51" selection-start="767" selection-end="767" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1819">
           <folding>
-            <marker date="1395456114556" expanded="true" signature="898:1051" placeholder="..." />
-            <marker date="1395456114556" expanded="true" signature="991:1019" placeholder="..." />
+            <marker date="1395461163626" expanded="true" signature="898:1051" placeholder="..." />
+            <marker date="1395461163626" expanded="true" signature="991:1019" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -710,8 +716,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="70" column="30" selection-start="2810" selection-end="2810" vertical-scroll-proportion="0.0" vertical-offset="1190" max-vertical-offset="1819">
           <folding>
-            <marker date="1395456114556" expanded="true" signature="898:1051" placeholder="..." />
-            <marker date="1395456114556" expanded="true" signature="991:1019" placeholder="..." />
+            <marker date="1395461163626" expanded="true" signature="898:1051" placeholder="..." />
+            <marker date="1395461163626" expanded="true" signature="991:1019" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -734,8 +740,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="46" column="51" selection-start="1999" selection-end="1999" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="1377">
           <folding>
-            <marker date="1395456114556" expanded="true" signature="898:1051" placeholder="..." />
-            <marker date="1395456114556" expanded="true" signature="991:1019" placeholder="..." />
+            <marker date="1395461163626" expanded="true" signature="898:1051" placeholder="..." />
+            <marker date="1395461163626" expanded="true" signature="991:1019" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -751,8 +757,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="30" column="41" selection-start="1342" selection-end="1342" vertical-scroll-proportion="0.0" vertical-offset="181" max-vertical-offset="1326">
           <folding>
-            <marker date="1395456114556" expanded="true" signature="898:1051" placeholder="..." />
-            <marker date="1395456114556" expanded="true" signature="991:1019" placeholder="..." />
+            <marker date="1395461163626" expanded="true" signature="898:1051" placeholder="..." />
+            <marker date="1395461163626" expanded="true" signature="991:1019" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -768,8 +774,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="47" column="53" selection-start="2094" selection-end="2094" vertical-scroll-proportion="0.0" vertical-offset="489" max-vertical-offset="1309">
           <folding>
-            <marker date="1395456114556" expanded="true" signature="898:1051" placeholder="..." />
-            <marker date="1395456114556" expanded="true" signature="991:1019" placeholder="..." />
+            <marker date="1395461163626" expanded="true" signature="898:1051" placeholder="..." />
+            <marker date="1395461163626" expanded="true" signature="991:1019" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -919,20 +925,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="67" selection-start="2522" selection-end="2522" vertical-scroll-proportion="-28.115385" vertical-offset="527" max-vertical-offset="2720">
-          <folding>
-            <marker date="1395456114556" expanded="true" signature="898:1051" placeholder="..." />
-            <marker date="1395456114556" expanded="true" signature="991:1019" placeholder="..." />
-          </folding>
+        <state line="147" column="3" selection-start="3739" selection-end="3739" vertical-scroll-proportion="0.0" vertical-offset="1695" max-vertical-offset="2618">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="145" column="0" selection-start="3671" selection-end="3671" vertical-scroll-proportion="0.8830275" vertical-offset="1695" max-vertical-offset="2584">
-          <folding />
+        <state line="74" column="52" selection-start="2587" selection-end="2587" vertical-scroll-proportion="0.8640662" vertical-offset="527" max-vertical-offset="2720">
+          <folding>
+            <marker date="1395461163626" expanded="true" signature="898:1051" placeholder="..." />
+            <marker date="1395461163626" expanded="true" signature="991:1019" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>

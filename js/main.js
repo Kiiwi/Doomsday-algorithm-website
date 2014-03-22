@@ -143,4 +143,6 @@ $(function new_date() {
     return weekday
 });
 
-
+$("button").click(function () {
+    var value = $(this).attr("value");
+});
