@@ -1,13 +1,14 @@
+// Functions to show hidden content
 $("#hintbutton").click(function () {
     $(".hint").slideToggle("slow");
 });
-
 
 $("#settings").click(function () {
     $(".sliders").slideToggle("slow");
 });
 
 
+// Functions that handles sliders
 $(function () {
     $("#yearSlider").slider({
         range: true,
@@ -37,6 +38,8 @@ $(function () {
 
 });
 
+
+// Functions that handle modal dialogs
 $("#centmodalbutton").click(function () {
     $("#centmodal").dialog("open");
     $(".ui-dialog-titlebar").hide();
@@ -96,6 +99,7 @@ $("#datemodal").dialog({
 });
 
 
+// Functions to load algorithms from their own file
 $(function () {
     $("#yearmodal").load("year_algorithm.html");
 });
