@@ -4,8 +4,8 @@
     <option name="ANALYSIS_IN_BACKGROUND" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ce401ee-3935-4fbf-bc6a-0ee8e3d900a8" name="Default" comment="Can now generate and display random date.">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+    <list default="true" id="5ce401ee-3935-4fbf-bc6a-0ee8e3d900a8" name="Default" comment="Added value attribute to day buttons">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Doomsday.iws" />
@@ -41,10 +41,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="74" column="50" selection-start="2505" selection-end="2505" vertical-scroll-proportion="0.8640662" vertical-offset="527" max-vertical-offset="2720">
+            <state line="74" column="67" selection-start="2522" selection-end="2522" vertical-scroll-proportion="-28.115385" vertical-offset="527" max-vertical-offset="2720">
               <folding>
                 <marker date="1395456114556" expanded="true" signature="898:1051" placeholder="..." />
                 <marker date="1395456114556" expanded="true" signature="991:1019" placeholder="..." />
@@ -62,10 +62,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="137" column="86" selection-start="3364" selection-end="3364" vertical-scroll-proportion="0.0" vertical-offset="1510" max-vertical-offset="2431">
+            <state line="141" column="0" selection-start="3485" selection-end="3485" vertical-scroll-proportion="0.8830275" vertical-offset="1627" max-vertical-offset="2499">
               <folding />
             </state>
           </provider>
@@ -98,8 +98,8 @@
         <option value="$PROJECT_DIR$/century_algorithm.html" />
         <option value="$PROJECT_DIR$/date_algorithm.html" />
         <option value="$PROJECT_DIR$/css/main.css" />
-        <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/main.js" />
       </list>
     </option>
   </component>
@@ -485,7 +485,11 @@
       <created>1395456038415</created>
       <updated>1395456038415</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Added value attribute to day buttons">
+      <created>1395456150602</created>
+      <updated>1395456150602</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -565,7 +569,8 @@
     <MESSAGE value="Small fixes" />
     <MESSAGE value="Added comments" />
     <MESSAGE value="Can now generate and display random date." />
-    <option name="LAST_COMMIT_MESSAGE" value="Can now generate and display random date." />
+    <MESSAGE value="Added value attribute to day buttons" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added value attribute to day buttons" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -909,20 +914,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="137" column="86" selection-start="3364" selection-end="3364" vertical-scroll-proportion="0.0" vertical-offset="1510" max-vertical-offset="2431">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="50" selection-start="2505" selection-end="2505" vertical-scroll-proportion="0.8640662" vertical-offset="527" max-vertical-offset="2720">
+        <state line="74" column="67" selection-start="2522" selection-end="2522" vertical-scroll-proportion="-28.115385" vertical-offset="527" max-vertical-offset="2720">
           <folding>
             <marker date="1395456114556" expanded="true" signature="898:1051" placeholder="..." />
             <marker date="1395456114556" expanded="true" signature="991:1019" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="141" column="0" selection-start="3485" selection-end="3485" vertical-scroll-proportion="0.8830275" vertical-offset="1627" max-vertical-offset="2499">
+          <folding />
         </state>
       </provider>
     </entry>
