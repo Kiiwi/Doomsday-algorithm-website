@@ -114,8 +114,8 @@ $(function () {
 
 
 // Functions to generate random dates
-today = new Date();
 
+var weekday = -1;
 $(function new_date() {
     var year_range = $('#yearSlider').slider("option", "values");
     var year_min = year_range[0];
@@ -136,13 +136,8 @@ $(function new_date() {
     var random_day = Math.floor(Math.random() * (day_max - day_min + 1)) + day_min;
 
     var random_date = new Date(random_year, random_month, random_day);
-    var weekday = random_date.getDay();
+    weekday = random_date.getDay();
 
 // Display random date
     document.getElementById("topdate").innerHTML = random_day + '.' + random_month + '.' + random_year;
-    return weekday
-});
-
-$("button").click(function () {
-    var value = $(this).attr("value");
 });

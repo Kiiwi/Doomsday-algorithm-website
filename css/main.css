@@ -357,21 +357,6 @@ li {
     color: #364656;
 }
 
-#centuryhinttext {
-    display: none;
-    text-align: center;
-}
-
-#yearhinttext {
-    display: none;
-    text-align: center;
-}
-
-#datehinttext {
-    display: none;
-    text-align: center;
-}
-
 .hint li {
     display: block;
 }
