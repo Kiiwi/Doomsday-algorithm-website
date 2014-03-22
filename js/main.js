@@ -111,3 +111,28 @@ $(function () {
 $(function () {
     $("#datemodal").load("date_algorithm.html");
 });
+
+
+// Functions to generate random dates
+today = new Date();
+
+var year_min = 1970;
+var year_max = today.getFullYear();
+var random_year = Math.floor(Math.random() * (year_max - year_min + 1)) + year_min;
+
+var month_min = 1;
+var month_max = 12;
+var random_month = Math.floor(Math.random() * (month_max - month_min + 1)) + month_min;
+
+function max_days(month, year) {
+    return new Date(year, month, 0).getDate();
+}
+var day_min = 1;
+var day_max = max_days(random_month, random_year);
+var random_day = Math.floor(Math.random() * (day_max - day_min + 1)) + day_min;
+
+var random_date = new Date(random_year, random_month, random_day);
+var weekday = random_date.getDay();
+
+
+document.getElementById("topdate").innerHTML = random_day + '.' + random_month + '.' + random_year;
