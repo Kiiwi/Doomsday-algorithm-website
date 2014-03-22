@@ -373,6 +373,36 @@ li {
     display: list-item;
 }
 
+#yearmodalp {
+    font-size: 16pt;
+    text-align: center;
+    color: #364656;
+}
+
+#centmodalp {
+    font-size: 16pt;
+    text-align: center;
+    color: #364656;
+}
+
+#datemodalp {
+    font-size: 16pt;
+    text-align: center;
+    color: #364656;
+}
+
+#yearmodalspan {
+    color: #FF8C31;
+}
+
+#centmodalspan {
+    color: #FF8C31;
+}
+
+#datemodalspan {
+    color: #FF8C31;
+}
+
 .ui-dialog .ui-dialog-content {
     position: relative;
 }

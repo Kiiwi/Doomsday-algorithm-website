@@ -113,8 +113,20 @@ $(function () {
 });
 
 
-// Functions to generate random dates
+// Weekday array
+var weekday_array = [];
+weekday_array[0] = "Monday";
+weekday_array[1] = "Tuesday";
+weekday_array[2] = "Wednesday";
+weekday_array[3] = "Thursday";
+weekday_array[4] = "Friday";
+weekday_array[5] = "Saturday";
+weekday_array[6] = "Sunday";
 
+// Anchor date dictionary
+var anchor = {1: "3/4", 2: "7/1", 3: "21", 4: "4", 5: "9", 6: "6", 7: "11", 8: "8", 9: "5", 10: "10", 11: "7", 12: "12"}
+
+// Functions to generate random dates
 var weekday = -1;
 $(function new_date() {
     var year_range = $('#yearSlider').slider("option", "values");
@@ -138,6 +150,14 @@ $(function new_date() {
     var random_date = new Date(random_year, random_month, random_day);
     weekday = random_date.getDay();
 
-// Display random date
+// Display
     document.getElementById("topdate").innerHTML = random_day + '.' + random_month + '.' + random_year;
+    document.getElementById("yearmodalspan").innerHTML = weekday_array[weekday];
+    if (random_year < 2000) {
+        document.getElementById("centmodalspan").innerHTML = "Wednesday";
+    }
+    else {
+        document.getElementById("centmodalspan").innerHTML = "Tuesday";
+    }
+    document.getElementById("datemodalspan").innerHTML = anchor[random_month];
 });
