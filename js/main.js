@@ -116,13 +116,15 @@ $(function () {
 // Functions to generate random dates
 today = new Date();
 
-function new_date() {
-    var year_min = 1970;
-    var year_max = today.getFullYear();
+$(function new_date() {
+    var year_range = $('#yearSlider').slider("option", "values");
+    var year_min = year_range[0];
+    var year_max = year_range[1];
     var random_year = Math.floor(Math.random() * (year_max - year_min + 1)) + year_min;
 
-    var month_min = 1;
-    var month_max = 12;
+    var month_range = $('#monthSlider').slider("option", "values");
+    var month_min = month_range[0];
+    var month_max = month_range[1];
     var random_month = Math.floor(Math.random() * (month_max - month_min + 1)) + month_min;
 
     function max_days(month, year) {
@@ -138,6 +140,7 @@ function new_date() {
 
 // Display random date
     document.getElementById("topdate").innerHTML = random_day + '.' + random_month + '.' + random_year;
-}
+    return weekday
+});
 
-$(document).ready(new_date());
+
