@@ -187,12 +187,3 @@ $(function new_date() {
     }
     document.getElementById("datemodalspan").innerHTML = anchor[random_month];
 });
-
-/*$("#monday").click(function () {
- if(this.value == (weekday)) {
- alert(("Correct!"))
- }
- else {
- alert("Wrong!")
- }
- });*/

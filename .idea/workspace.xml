@@ -4,7 +4,7 @@
     <option name="ANALYSIS_IN_BACKGROUND" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ce401ee-3935-4fbf-bc6a-0ee8e3d900a8" name="Default" comment="Added functions">
+    <list default="true" id="5ce401ee-3935-4fbf-bc6a-0ee8e3d900a8" name="Default" comment="Added function to correctly calculate year's Doomsday">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -44,7 +44,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="62" selection-start="1790" selection-end="1790" vertical-scroll-proportion="-5.1538463" vertical-offset="784" max-vertical-offset="2771">
+            <state line="54" column="62" selection-start="1790" selection-end="1790" vertical-scroll-proportion="-9.076923" vertical-offset="682" max-vertical-offset="2771">
               <folding>
                 <marker date="1395543307689" expanded="true" signature="898:1051" placeholder="..." />
                 <marker date="1395543307689" expanded="true" signature="991:1019" placeholder="..." />
@@ -65,7 +65,7 @@
       <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="175" column="16" selection-start="4520" selection-end="4520" vertical-scroll-proportion="0.902746" vertical-offset="2186" max-vertical-offset="3451">
+            <state line="189" column="0" selection-start="5010" selection-end="5010" vertical-scroll-proportion="0.8830275" vertical-offset="2443" max-vertical-offset="3315">
               <folding />
             </state>
           </provider>
@@ -523,7 +523,11 @@
       <created>1395523373134</created>
       <updated>1395523373134</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Added function to correctly calculate year's Doomsday">
+      <created>1395554616041</created>
+      <updated>1395554616041</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -550,6 +554,7 @@
     <frame x="0" y="0" width="960" height="1040" extended-state="0" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32901832" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32858709" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32881355" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -565,7 +570,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32968238" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32901832" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39956093" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -583,7 +587,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="simplified border" />
     <MESSAGE value="added jquery-ui-slider-pips" />
     <MESSAGE value="removed jquery-ui-slider-pips, added jqueryUI sliders" />
     <MESSAGE value="fixed label bug" />
@@ -608,7 +611,8 @@
     <MESSAGE value="Added button id to weekday buttons." />
     <MESSAGE value="Code inspection fix." />
     <MESSAGE value="Added functions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added functions" />
+    <MESSAGE value="Added function to correctly calculate year's Doomsday" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added function to correctly calculate year's Doomsday" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -954,7 +958,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="62" selection-start="1790" selection-end="1790" vertical-scroll-proportion="-5.1538463" vertical-offset="784" max-vertical-offset="2771">
+        <state line="54" column="62" selection-start="1790" selection-end="1790" vertical-scroll-proportion="-9.076923" vertical-offset="682" max-vertical-offset="2771">
           <folding>
             <marker date="1395543307689" expanded="true" signature="898:1051" placeholder="..." />
             <marker date="1395543307689" expanded="true" signature="991:1019" placeholder="..." />
@@ -964,7 +968,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="175" column="16" selection-start="4520" selection-end="4520" vertical-scroll-proportion="0.902746" vertical-offset="2186" max-vertical-offset="3451">
+        <state line="189" column="0" selection-start="5010" selection-end="5010" vertical-scroll-proportion="0.8830275" vertical-offset="2443" max-vertical-offset="3315">
           <folding />
         </state>
       </provider>
