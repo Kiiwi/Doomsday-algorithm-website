@@ -122,6 +122,8 @@ weekday_array[3] = "Thursday";
 weekday_array[4] = "Friday";
 weekday_array[5] = "Saturday";
 weekday_array[6] = "Sunday";
+weekday_array[7] = "Monday";
+weekday_array[8] = "Tuesday";
 
 // Anchor date dictionary
 var anchor = {1: "3/4", 2: "7/1", 3: "21", 4: "4", 5: "9", 6: "6", 7: "11", 8: "8", 9: "5", 10: "10", 11: "7", 12: "12"}
@@ -147,12 +149,36 @@ $(function new_date() {
     var day_max = max_days(random_month, random_year);
     var random_day = Math.floor(Math.random() * (day_max - day_min + 1)) + day_min;
 
-    var random_date = new Date(random_year, random_month, random_day);
+    var random_date = new Date();
+    random_date.setFullYear(random_year, random_month, random_year);
     weekday = random_date.getDay();
+
+    function doomsday_year(year) {
+        var year_str = year.toString();
+        var year_T_str = year_str.slice(2);
+        var year_T = parseInt(year_T_str);
+        if (year_T % 2 != 0) {
+            year_T += 11;
+        }
+        year_T /= 2;
+        if (year_T % 2 != 0) {
+            year_T += 11;
+        }
+        return 7 - (year_T % 7);
+    }
+
+    // Doomsday offset wed/tues for 19xx/20xx
+    var dd = doomsday_year(random_year);
+    if (random_year < 2000) {
+        dd += 2;
+    }
+    else {
+        dd += 1;
+    }
 
 // Display
     document.getElementById("topdate").innerHTML = random_day + '.' + random_month + '.' + random_year;
-    document.getElementById("yearmodalspan").innerHTML = weekday_array[weekday];
+    document.getElementById("yearmodalspan").innerHTML = weekday_array[dd];
     if (random_year < 2000) {
         document.getElementById("centmodalspan").innerHTML = "Wednesday";
     }
@@ -161,3 +187,12 @@ $(function new_date() {
     }
     document.getElementById("datemodalspan").innerHTML = anchor[random_month];
 });
+
+/*$("#monday").click(function () {
+ if(this.value == (weekday)) {
+ alert(("Correct!"))
+ }
+ else {
+ alert("Wrong!")
+ }
+ });*/
