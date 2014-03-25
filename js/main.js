@@ -1,6 +1,3 @@
-// Initiate dates
-window.onload = new_date;
-
 // Functions to show hidden content
 $("#hintbutton").click(function () {
     $(".hint").slideToggle("slow");
@@ -16,7 +13,7 @@ $(function () {
     $("#yearSlider").slider({
         range: true,
         min: 1970,
-        max: 2014,
+        max: 2014, //TODO set this to be current year
         values: [1970, 2014],
         slide: function (event, ui) {
             $("#yearAmount").val(ui.values[0] + " - " + ui.values[ 1 ]);
@@ -133,6 +130,7 @@ var anchor = {1: "3/4", 2: "7/1", 3: "21", 4: "4", 5: "9", 6: "6", 7: "11", 8: "
 
 // Functions to generate random dates
 
+var weekday;
 function new_date() {
     var year_range = $('#yearSlider').slider("option", "values");
     var year_min = year_range[0];
@@ -153,8 +151,8 @@ function new_date() {
     var random_day = Math.floor(Math.random() * (day_max - day_min + 1)) + day_min;
 
     var random_date = new Date();
-    random_date.setFullYear(random_year, random_month, random_day);
-    var weekday = random_date.getDay();
+    random_date.setFullYear(random_year, random_month - 1, random_day);
+    weekday = random_date.getDay();
 
     function doomsday_year(year) {
         var year_str = year.toString();
@@ -198,8 +196,11 @@ function new_date() {
 
 function buttonClicked() {
     var text = (this === window) ? 'window' : this.value;
-    alert(text);
+    alert(weekday);
 }
 var button1 = document.getElementById('monday');
 
 button1.onclick = buttonClicked;
+
+// Initiate dates
+window.onload = new_date;
