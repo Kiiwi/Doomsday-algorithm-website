@@ -1,3 +1,6 @@
+// Initiate dates
+window.onload = new_date;
+
 // Functions to show hidden content
 $("#hintbutton").click(function () {
     $(".hint").slideToggle("slow");
@@ -126,11 +129,11 @@ weekday_array[7] = "Monday";
 weekday_array[8] = "Tuesday";
 
 // Anchor date dictionary
-var anchor = {1: "3/4", 2: "7/1", 3: "21", 4: "4", 5: "9", 6: "6", 7: "11", 8: "8", 9: "5", 10: "10", 11: "7", 12: "12"}
+var anchor = {1: "3/4", 2: "7/1", 3: "21", 4: "4", 5: "9", 6: "6", 7: "11", 8: "8", 9: "5", 10: "10", 11: "7", 12: "12"};
 
 // Functions to generate random dates
-var weekday = -1;
-$(function new_date() {
+
+function new_date() {
     var year_range = $('#yearSlider').slider("option", "values");
     var year_min = year_range[0];
     var year_max = year_range[1];
@@ -150,8 +153,8 @@ $(function new_date() {
     var random_day = Math.floor(Math.random() * (day_max - day_min + 1)) + day_min;
 
     var random_date = new Date();
-    random_date.setFullYear(random_year, random_month, random_year);
-    weekday = random_date.getDay();
+    random_date.setFullYear(random_year, random_month, random_day);
+    var weekday = random_date.getDay();
 
     function doomsday_year(year) {
         var year_str = year.toString();
@@ -186,4 +189,17 @@ $(function new_date() {
         document.getElementById("centmodalspan").innerHTML = "Tuesday";
     }
     document.getElementById("datemodalspan").innerHTML = anchor[random_month];
-});
+    return weekday;
+
+}
+
+
+// Check if correct answer
+
+function buttonClicked() {
+    var text = (this === window) ? 'window' : this.value;
+    alert(text);
+}
+var button1 = document.getElementById('monday');
+
+button1.onclick = buttonClicked;
