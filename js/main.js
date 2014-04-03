@@ -193,14 +193,51 @@ function new_date() {
 
 
 // Check if correct answer
-
 function buttonClicked() {
-    var text = (this === window) ? 'window' : this.value;
-    alert(weekday);
+    var value = (this === window) ? 'window' : this.value;
+    var name = this.id;
+    var correct_button = weekday_array[weekday + 1];
+    var correct_delay = 1000;
+    var incorrect_delay = 1500; //ms
+    if (value == weekday) {
+        this.style.background = "#15AB28";
+        this.style.color = "#F2F5E9";
+        setTimeout(function () {
+            document.getElementById(name).style.background = "#364656";
+            document.getElementById(name).style.color = "#9E9E9E";
+            new_date();
+        }, correct_delay);
+    }
+    else {
+        this.style.background = "#C31B07";
+        this.style.color = "#F2F5E9";
+        document.getElementById(correct_button).style.background = "#15AB28";
+        document.getElementById(correct_button).style.color = "#F2F5E9";
+        setTimeout(function () {
+            document.getElementById(name).style.background = "#364656";
+            document.getElementById(name).style.color = "#9E9E9E";
+            document.getElementById(correct_button).style.background = "#364656";
+            document.getElementById(correct_button).style.color = "#9E9E9E";
+            new_date();
+        }, incorrect_delay);
+    }
 }
-var button1 = document.getElementById('monday');
+
+var button1 = document.getElementById('Monday');
+var button2 = document.getElementById('Tuesday');
+var button3 = document.getElementById('Wednesday');
+var button4 = document.getElementById('Thursday');
+var button5 = document.getElementById('Friday');
+var button6 = document.getElementById('Saturday');
+var button7 = document.getElementById('Sunday');
 
 button1.onclick = buttonClicked;
+button2.onclick = buttonClicked;
+button3.onclick = buttonClicked;
+button4.onclick = buttonClicked;
+button5.onclick = buttonClicked;
+button6.onclick = buttonClicked;
+button7.onclick = buttonClicked;
 
 // Initiate dates
 window.onload = new_date;
