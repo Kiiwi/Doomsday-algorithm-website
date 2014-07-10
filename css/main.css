@@ -206,6 +206,7 @@ li {
     width: 110px;
     text-decoration: none;
     text-align: center;
+    margin-top: 0.3em;
 }
 
 .daybuttons button:hover {
@@ -246,12 +247,14 @@ li {
 
 .hint {
     margin: 60px auto;
-    width: 500px;
+    width: 100%;
+    max-width: 35em;
     padding: 0;
     border-radius: 10px;
     border: 1px solid #FF8C31;
     background: #F2F5E9;
     display: none;
+    position: relative;
 }
 
 .hint p {
