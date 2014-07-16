@@ -288,8 +288,8 @@ li {
 }
 
 .sliders {
-    margin: auto auto;
-    max-width: 600px;
+    margin: 0 auto;
+    width: 300px;
     display: none;
     position: relative;
 }
