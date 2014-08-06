@@ -288,8 +288,8 @@ li {
 }
 
 .sliders {
-    margin: auto auto;
-    max-width: 600px;
+    margin: 0 auto;
+    width: 300px;
     display: none;
     position: relative;
 }
@@ -532,8 +532,11 @@ li {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
+@media only screen and (max-width: 400px) {
     /* Style adjustments for viewports that meet the condition */
+    .date h1 {
+        font-size: 3em;
+    }
 }
 
 @media print,
