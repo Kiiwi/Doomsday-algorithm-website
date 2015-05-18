@@ -13,8 +13,8 @@ $(function () {
     $("#yearSlider").slider({
         range: true,
         min: 1970,
-        max: 2014, //TODO set this to be current year
-        values: [1970, 2014],
+        max: 2015, //TODO set this to be current year
+        values: [1970, 2015],
         slide: function (event, ui) {
             $("#yearAmount").val(ui.values[0] + " - " + ui.values[ 1 ]);
         }
