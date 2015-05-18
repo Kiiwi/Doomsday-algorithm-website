@@ -3,11 +3,8 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    Tommy Ryan - Supreme Leader
 
-# THANKS
-
-    <name>
 
 # TECHNOLOGY COLOPHON
 
